@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="How I work with agents: understand, challenge, ship, release, close out, then repeat">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151b2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4b5675"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="250" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="249" rx="14" fill="none" stroke="#2a3350"/>
+  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <text x="30" y="36" fill="#6b7591" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">how I work · pattern from my last 20 agent sessions</text>
+
+  <g stroke="#4b5675" stroke-width="2" fill="none">
+    <line x1="182" y1="112" x2="200" y2="112" marker-end="url(#arrow)"/>
+    <line x1="352" y1="112" x2="370" y2="112" marker-end="url(#arrow)"/>
+    <line x1="522" y1="112" x2="540" y2="112" marker-end="url(#arrow)"/>
+    <line x1="692" y1="112" x2="710" y2="112" marker-end="url(#arrow)"/>
+    <path d="M 790 168 V 200 H 106 V 172" stroke-dasharray="5 5" marker-end="url(#arrow)">
+      <animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="448" y="220" text-anchor="middle" fill="#6b7591" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">next task · 3 or 4 of these loops run at once, one per git worktree</text>
+
+  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="30" y="56" width="152" height="112" rx="10" fill="#111830" stroke="#7c3aed"/>
+    <text x="106" y="88" fill="#e6edf3" font-size="16" font-weight="600">Understand</text>
+    <text x="106" y="110" fill="#9aa4bf" font-size="12.5">trace the real cause</text>
+    <text x="106" y="148" fill="#c4b5fd" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">"eli5"</text>
+
+    <rect x="200" y="56" width="152" height="112" rx="10" fill="#111830" stroke="#6366f1"/>
+    <text x="276" y="88" fill="#e6edf3" font-size="16" font-weight="600">Challenge</text>
+    <text x="276" y="110" fill="#9aa4bf" font-size="12.5">second model audits</text>
+    <text x="276" y="148" fill="#c4b5fd" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">"is this kiss?"</text>
+
+    <rect x="370" y="56" width="152" height="112" rx="10" fill="#111830" stroke="#22d3ee"/>
+    <text x="446" y="88" fill="#e6edf3" font-size="16" font-weight="600">Ship</text>
+    <text x="446" y="110" fill="#9aa4bf" font-size="12.5">PR, screenshots, CI</text>
+    <text x="446" y="148" fill="#c4b5fd" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">"open pr, babysit"</text>
+
+    <rect x="540" y="56" width="152" height="112" rx="10" fill="#111830" stroke="#2dd4bf"/>
+    <text x="616" y="88" fill="#e6edf3" font-size="16" font-weight="600">Release</text>
+    <text x="616" y="110" fill="#9aa4bf" font-size="12.5">QA, then production</text>
+    <text x="616" y="148" fill="#c4b5fd" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">"is it deployed?"</text>
+
+    <rect x="710" y="56" width="160" height="112" rx="10" fill="#0f2a24" stroke="#34d399"/>
+    <text x="790" y="88" fill="#e6edf3" font-size="16" font-weight="600">Close out</text>
+    <text x="790" y="110" fill="#9aa4bf" font-size="12.5">handoff, prune, todo</text>
+    <text x="790" y="148" fill="#c4b5fd" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">"what is next?"</text>
+  </g>
+</svg>

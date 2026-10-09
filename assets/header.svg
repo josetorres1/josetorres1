@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="José Torres, software engineer in Managua, Nicaragua">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151b2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <clipPath id="l1"><rect x="40" y="62" height="30" width="0"><animate attributeName="width" begin="0.3s" dur="0.6s" from="0" to="200" fill="freeze"/></rect></clipPath>
+    <clipPath id="l2"><rect x="40" y="92" height="30" width="0"><animate attributeName="width" begin="1.0s" dur="1.2s" from="0" to="820" fill="freeze"/></rect></clipPath>
+    <clipPath id="l3"><rect x="40" y="132" height="30" width="0"><animate attributeName="width" begin="2.4s" dur="0.8s" from="0" to="260" fill="freeze"/></rect></clipPath>
+    <clipPath id="l4"><rect x="40" y="162" height="30" width="0"><animate attributeName="width" begin="3.3s" dur="1.4s" from="0" to="820" fill="freeze"/></rect></clipPath>
+    <clipPath id="l5"><rect x="40" y="202" height="30" width="0"><animate attributeName="width" begin="4.9s" dur="1.0s" from="0" to="820" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect width="900" height="260" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="14" fill="none" stroke="#2a3350"/>
+  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <circle cx="30" cy="28" r="6" fill="#ff5f57"/>
+  <circle cx="50" cy="28" r="6" fill="#febc2e"/>
+  <circle cx="70" cy="28" r="6" fill="#28c840"/>
+  <text x="450" y="33" text-anchor="middle" fill="#6b7591" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">jose@managua: ~</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+    <text x="40" y="84" clip-path="url(#l1)"><tspan fill="#34d399">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
+    <text x="40" y="114" clip-path="url(#l2)" fill="#e6edf3" font-weight="700">José Torres <tspan fill="#6b7591" font-weight="400">·</tspan> <tspan fill="#c4b5fd" font-weight="400">software engineer</tspan> <tspan fill="#6b7591" font-weight="400">·</tspan> <tspan fill="#9aa4bf" font-weight="400">Managua, Nicaragua</tspan></text>
+
+    <text x="40" y="154" clip-path="url(#l3)"><tspan fill="#34d399">$</tspan><tspan fill="#e6edf3"> cat industries.txt</tspan></text>
+    <text x="40" y="184" clip-path="url(#l4)"><tspan fill="#22d3ee">cybersecurity GRC</tspan><tspan fill="#6b7591"> · </tspan><tspan fill="#22d3ee">real estate tech</tspan><tspan fill="#6b7591"> · </tspan><tspan fill="#9aa4bf">AWS serverless · coding agents</tspan></text>
+
+    <text x="40" y="224" clip-path="url(#l5)"><tspan fill="#34d399">$</tspan><tspan fill="#e6edf3"> review-my-prs --watch  </tspan><tspan fill="#34d399">✓</tspan><tspan fill="#9aa4bf"> 7 reviewers · 3 gates · 1 verifier </tspan><tspan fill="#e6edf3">▋<animate attributeName="fill-opacity" begin="5.9s" dur="1s" values="1;1;0;0" keyTimes="0;0.5;0.5;1" repeatCount="indefinite"/></tspan></text>
+  </g>
+</svg>

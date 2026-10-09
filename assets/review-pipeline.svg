@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="review-my-prs pipeline: collect, 7 reviewers, 3 gates, verifier, post and Telegram alert">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151b2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4b5675"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="190" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="189" rx="14" fill="none" stroke="#2a3350"/>
+  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <text x="30" y="36" fill="#6b7591" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">review-my-prs · every 10 minutes on weekdays</text>
+
+  <g stroke="#4b5675" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="182" y1="110" x2="200" y2="110"/>
+    <line x1="352" y1="110" x2="370" y2="110"/>
+    <line x1="522" y1="110" x2="540" y2="110"/>
+    <line x1="692" y1="110" x2="710" y2="110"/>
+  </g>
+
+  <circle r="4" fill="#22d3ee">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M 110 110 L 790 110"/>
+    <animate attributeName="opacity" dur="5s" values="0;1;1;0" keyTimes="0;0.05;0.9;1" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="30" y="66" width="152" height="88" rx="10" fill="#111830" stroke="#7c3aed"/>
+    <text x="106" y="100" fill="#e6edf3" font-size="16" font-weight="600">Collect</text>
+    <text x="106" y="124" fill="#9aa4bf" font-size="12.5">diff · CI · old reviews</text>
+
+    <rect x="200" y="66" width="152" height="88" rx="10" fill="#111830" stroke="#6366f1"/>
+    <text x="276" y="100" fill="#e6edf3" font-size="16" font-weight="600">7 reviewers</text>
+    <text x="276" y="124" fill="#9aa4bf" font-size="12.5">one area each</text>
+
+    <rect x="370" y="66" width="152" height="88" rx="10" fill="#111830" stroke="#22d3ee"/>
+    <text x="446" y="100" fill="#e6edf3" font-size="16" font-weight="600">3 gates</text>
+    <text x="446" y="124" fill="#9aa4bf" font-size="12.5">echo · stale · red</text>
+
+    <rect x="540" y="66" width="152" height="88" rx="10" fill="#111830" stroke="#2dd4bf"/>
+    <text x="616" y="100" fill="#e6edf3" font-size="16" font-weight="600">Verifier</text>
+    <text x="616" y="124" fill="#9aa4bf" font-size="12.5">stronger model</text>
+
+    <rect x="710" y="66" width="160" height="88" rx="10" fill="#0f2a24" stroke="#34d399"/>
+    <text x="790" y="100" fill="#e6edf3" font-size="16" font-weight="600">Post review</text>
+    <text x="790" y="124" fill="#9aa4bf" font-size="12.5">+ Telegram alert</text>
+  </g>
+</svg>
